@@ -13,7 +13,9 @@ filename=$prefix.$suffix
 echo $filename
 #  Прекрасный способ получения "уникального" имени для временного файла,
 #+ даже лучше, чем с использованием $$.
-
+touch $filename.txt
 # Дополнительную информацию вы найдете в 'man date'.
+echo $zzz
+# curl $REPLIT_DB_URL/IAM_KEY
 
 exit 0
